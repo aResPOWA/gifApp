@@ -1,0 +1,136 @@
+* {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+	padding: 60px;
+	background-color: rgb(234, 234, 234);
+}
+
+input {
+	background-color: white;
+	border-radius: 5px;
+	border: 2px solid rgb(148, 71, 219);
+	color: black;
+	font-size: 1.2rem;
+	outline: none;
+	padding: 10px 15px;
+	width: 100%;
+	/* margin-bottom: 1rem; */
+}
+
+h1 {
+	color: rgb(148, 71, 219);
+	font-size: 2.5rem;
+}
+
+h2, h3 {
+	font-size: 1.5rem;
+	margin-bottom: 30px;
+	color: #333;
+	background-color: rgba(148, 71, 219, 0.2);
+	border-radius: 15px;
+	padding: 15px;
+}
+
+.card-grid {
+	display: flex;
+	/* flex-direction: row; */
+	flex-wrap: wrap;
+	/* justify-content: center; */
+	gap: 1rem;
+}
+
+/* .card {
+	align-content: center;
+	align-items: center;
+	border-radius: 10px;
+	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+} */
+
+.card {
+	background-color: white;
+	flex: calc(25% - 1rem);
+	border-radius: 10px;
+	max-width: 25%;
+	/* padding: 0 4px; */
+	height: 0%;
+	overflow: hidden;
+}
+
+/* .card img {
+	vertical-align: middle;
+	margin-top: 8px;
+}
+
+.card:nth-child(even) {
+	display: flex;
+	flex-direction: column-reverse;
+} */
+
+
+.card p {
+	background-color: white;
+	flex: 1;
+	font-size: 1.5rem;
+	margin-top: 5px;
+	padding: 5px 20px 0px 20px;
+	text-align: center;
+}
+
+.card img {
+	width: 100%;
+}
+
+.content-form {
+	background: #f4f4f4;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 2rem;
+	border-radius: 1rem;
+}
+
+form {
+	width: 100%;
+	display: flex;
+}
+
+ul {
+	margin-top: 2rem;
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+}
+
+li {
+	margin-bottom: 1rem;
+}
+
+li::marker {
+	font-weight: 700;
+}
+
+button {
+	color: #fff;
+	background: rgb(148, 71, 219);
+	padding: 1rem 1.5rem;
+	font-size: 1rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius: 5px;
+	border-color: transparent;
+	border-style: solid;
+}
+
+figure {
+	margin: 0;
+}
+
+figcaption {
+	padding: 5px 10px;
+}
